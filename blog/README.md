@@ -1,6 +1,54 @@
-# my-project
+# 博客系统
 
-> A Vue.js project
+> 用VueJs写的博客系统+工作室展示页面
+>
+> 该系统有三个页面组成，分别是主页，用户后台，管理员后台
+>
+> 网站页面设计参考[fly主题](https://pjax.cn)
+>
+>
+
+## 主页
+
+- 主页显示
+- 成员介绍
+- 关于
+- 博客浏览
+
+## 用户后台
+
+- 个人信息管理
+- 个人博客管理
+
+### 管理员后台
+
+- 网站用户管理
+- 博客分类管理
+- 系统页面展示管理
+
+## 技术栈
+
+- UI框架：bootstrap
+
+- bootrap插件：
+
+  - bootstrap-markdown
+
+  -  bootstrap-dropdown-hover
+
+    > ​	下拉菜单鼠标hover自动展开插件
+
+- mvvp框架：vueJs
+
+- 打包工具：webpack
+
+- 图标：font-awesome
+
+
+
+## 后端地址
+
+
 
 ## Build Setup
 
@@ -26,5 +74,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
