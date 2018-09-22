@@ -54,8 +54,21 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'index.html',
-      inject: true
+      template: './src/pages/index/index.html',
+      inject: true,
+      chunks: ['app']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'home.html',
+      template: './src/pages/home/home.html',
+      inject: true,
+      chunks: ['home']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'admin.html',
+      template: './src/pages/admin/admin.html',
+      inject: true,
+      chunks: ['admin']
     }),
     // copy custom static assets
     new CopyWebpackPlugin([

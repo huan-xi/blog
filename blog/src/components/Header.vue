@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container-fluid sidebar-nav">
       <div class="navbar-header">
         <button type="button" id="navbar-toggle" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -14,9 +14,16 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#/"><i class="fa fa-home"></i> 首页<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="/index.html"><i class="fa fa-home"></i> 首页<span class="sr-only">(current)</span></a></li>
           <li class="line"></li>
-          <li><a href="#"><i class="fa fa-pencil-square-o"></i> 博客</a></li>
+          <li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><i
+              class="fa fa-pencil-square-o"></i> 博客浏览 <span class="fa fa-angle-down"></span> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#/blog"><i class="fa fa-comment"></i> 前端相关</a></li>
+              <li><a href="#"><i class="fa fa-exclamation-circle"></i> Java相关</a></li>
+            </ul>
+          </li>
           <li class="line"></li>
           <li><a href="#"><i class="fa fa-pie-chart"></i> 团队成员</a></li>
           <li class="line"></li>
@@ -72,7 +79,6 @@
       }
     }
   }
-
   /**
    * @preserve
    * Project: Bootstrap Hover Dropdown

@@ -1,6 +1,6 @@
 <template>
-  <div class=" copy-right">
-    <footer id="footer" class="text-center container">
+  <div class="copy-right container-fluid">
+    <footer id="footer" class="text-center">
       <div class="footer-tag-list">
         <i class="fa fa-html5"></i> Copyright © 2017 <a href="#"> </a>丨勉强运行：0天
       </div>
@@ -22,6 +22,7 @@
     bottom: 10px;
     color: rgb(112, 118, 130);
     font-size: 12px;
+    padding-right: 15px;
   }
 
   @media screen and (max-width: 766px) {
