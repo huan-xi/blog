@@ -3,8 +3,12 @@
     <my-header/>
     <div class="container-fluid">
       <div class="row">
-        <sidebar/>
-        <router-view/>
+        <div class="col-xs-2">
+          <sidebar/>
+        </div>
+        <div class="col-xs-10">
+          <router-view/>
+        </div>
       </div>
     </div>
     <my-footer/>

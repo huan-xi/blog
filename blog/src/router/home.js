@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import About from '@/components/About'
 import UpdateInfo from '@/components/UpdateInfo'
+import PublicBlog from '@/components/PublicBlog'
+import ManageBlog from '@/components/ManageBlog'
+import CommonsManage from '@/components/CommonsManage'
 
 Vue.use(Router)
 
@@ -16,6 +19,18 @@ export default new Router({
     {
       path: '/updateInfo',
       component: UpdateInfo
+    },
+    {
+      path: '/public',
+      component: PublicBlog
+    },
+    {
+      path: '/blogs',
+      component: ManageBlog
+    },
+    {
+      path: '/commons',
+      component: CommonsManage
     },
     {
       path: '/about',
