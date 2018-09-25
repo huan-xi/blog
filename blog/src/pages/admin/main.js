@@ -5,5 +5,6 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<h1>admin</h1>'
+  components:{App},
+  template: '<App/>',
 })
