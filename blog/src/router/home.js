@@ -4,7 +4,7 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import UpdateInfo from '@/components/UpdateInfo'
 import PublicBlog from '@/components/PublicBlog'
-import ManageBlog from '@/components/ManageBlog'
+import ManageBlog from '@/components/BlogManage'
 import CommonsManage from '@/components/CommonsManage'
 
 Vue.use(Router)

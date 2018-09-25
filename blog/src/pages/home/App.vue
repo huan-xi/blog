@@ -6,9 +6,7 @@
         <div class="col-xs-2">
           <sidebar/>
         </div>
-        <div class="col-xs-10">
           <router-view/>
-        </div>
       </div>
     </div>
     <my-footer/>
@@ -32,6 +30,12 @@
   }
 </script>
 <style>
+  .right-context{
+    border: solid 1px rgba(168, 157, 162, 0.6);
+    border-radius: 10px;
+    margin-left: 230px;
+    padding-left: 10px;
+  }
   a, a:hover, a:link, a:visited {
     text-decoration: none !important;
     cursor: url("../../assets/link.png"), pointer;

@@ -18,8 +18,8 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   #footer {
-    position: fixed;
-    bottom: 10px;
+    margin-top: 30%;
+    position: relative;
     color: rgb(112, 118, 130);
     font-size: 12px;
     padding-right: 15px;

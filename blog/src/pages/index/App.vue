@@ -42,6 +42,7 @@
     left: 0;
     z-index: -998;
     background: url("../../assets/bg-fixed.png") repeat;
+    display: none;
   }
 
   @media screen and (max-width: 766px) {

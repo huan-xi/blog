@@ -23,14 +23,18 @@
         <i class="fa fa-language icon"></i>
         <span slot="title">博客管理</span>
       </template>
-      <router-link to="/">
+      <router-link to="public">
         <el-menu-item index="2-1">
           <i class="fa fa-pencil-square-o icon">
           </i>发布文章
         </el-menu-item>
       </router-link>
-      <el-menu-item index="2-2"><i class="fa fa-gavel icon"></i>管理文章</el-menu-item>
+      <router-link to="blogs">
+        <el-menu-item index="2-2"><i class="fa fa-gavel icon"></i>文章管理</el-menu-item>
+      </router-link>
+      <router-link to="commons">
       <el-menu-item index="2-3"><i class="fa fa-comments icon"></i>评论管理</el-menu-item>
+      </router-link>
     </el-submenu>
 
     <el-menu-item index="3">

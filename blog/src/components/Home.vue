@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h2>个人主页</h2>
+  <div class="right-context">
+    <h3>个人主页</h3>
     <div class="panel-body">
       <div class="alert alert-info alert-dismissible" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
@@ -48,12 +48,6 @@
 </template>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .home{
-    border: solid 1px rgba(168, 157, 162, 0.8);
-    border-radius: 10px;
-    margin-left: 20px;
-    padding-left: 10px;
-  }
   .briefly ul li .number {
     float: right;
     margin: 15px;
@@ -88,7 +82,7 @@
     padding: 5px 15px;
   }
   .briefly ul li {
-    width: 23.65%;
+    width: 23.8%;
     float: left;
     margin-left: 1.35%;
     background-color: #0bacd3;

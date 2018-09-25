@@ -16,9 +16,10 @@
 <style scoped>
   #mobile-footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
     width: 100%;
     z-index: 9999;
+    padding-bottom: 10px;
   }
 
   @media screen and (min-width: 766px) {
@@ -39,6 +40,7 @@
     border-top: 1px solid #e6e6eb;
     height: 100%;
     list-style: none;
+    background-color: white;
   }
 
   #mobile-menu > li > a > span {
