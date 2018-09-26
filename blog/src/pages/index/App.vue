@@ -35,11 +35,11 @@
   }
   body{
     height: 100%;
+    margin:0 auto !important;
   }
   @media screen and (min-width:1200px){
     body{
       width:1200px;
-      margin:0 auto;
     }
   }
 
