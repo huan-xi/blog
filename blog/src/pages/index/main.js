@@ -9,8 +9,12 @@ import 'font-awesome/css/font-awesome.css'
 import $ from 'jquery'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import mavonEditor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+
 // use
 Vue.use(ElementUI)
+Vue.use(mavonEditor)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

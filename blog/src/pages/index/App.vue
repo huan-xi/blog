@@ -6,7 +6,6 @@
     <my-mobile-footer/>
     <login/>
     <search/>
-    <div class="bg-fixed"></div>
   </div>
 </template>
 <script>
@@ -30,19 +29,18 @@
     cursor: url("../../assets/link.png"), pointer;
   }
 
-  html {
+  html,body{
+    min-height: 100%;
     cursor: url("../../assets/default.png"), default;
   }
-
-  .bg-fixed {
-    width: 100%;
+  body{
     height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -998;
-    background: url("../../assets/bg-fixed.png") repeat;
-    display: none;
+  }
+  @media screen and (min-width:1200px){
+    body{
+      width:1200px;
+      margin:0 auto;
+    }
   }
 
   @media screen and (max-width: 766px) {

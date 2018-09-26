@@ -16,14 +16,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="/index.html"><i class="fa fa-home"></i> 首页<span class="sr-only">(current)</span></a></li>
           <li class="line"></li>
-          <li class="dropdown">
-            <a href="javascript:;" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><i
-              class="fa fa-pencil-square-o"></i> 博客浏览 <span class="fa fa-angle-down"></span> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#/blog"><i class="fa fa-comment"></i> 前端相关</a></li>
-              <li><a href="#"><i class="fa fa-exclamation-circle"></i> Java相关</a></li>
-            </ul>
-          </li>
+          <li><a href="#/blogPage"><i class="fa fa-pencil-square-o"></i> 博客浏览</a></li>
           <li class="line"></li>
           <li><a href="#"><i class="fa fa-pie-chart"></i> 团队成员</a></li>
           <li class="line"></li>

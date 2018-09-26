@@ -52,7 +52,7 @@
 </template>
 
 <script>
-  import ArticleItem from "./item/ArticleItem";
+  import ArticleItem from "./item/BlogItem";
   import CommonItem from "./item/CommonItem";
 
   export default {

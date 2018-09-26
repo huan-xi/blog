@@ -67,7 +67,7 @@
   .context {
     margin: 0 0 8px;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 20px;
     color: #999;
   }
 
@@ -87,6 +87,6 @@
 </style>
 <script>
   export default {
-    name: "ArticleItem"
+    name: "BlogItem"
   }
 </script>

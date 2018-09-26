@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/blog/node_modules/bootstrap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/blog/node_modules/font-awesome" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/blog/node_modules/bootstrap-markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blog/node_modules/vue-markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blog/node_modules/mavon-editor" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/blog/dist" />
       <excludeFolder url="file://$MODULE_DIR$/blog/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules" />

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    import ArticleItem from "./item/ArticleItem";
+    import ArticleItem from "./item/BlogItem";
     export default {
         name: "ManageBlog",
       components: {ArticleItem}

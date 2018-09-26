@@ -20,6 +20,7 @@
     width: 100%;
     z-index: 9999;
     padding-bottom: 10px;
+    background-color: white;
   }
 
   @media screen and (min-width: 766px) {
@@ -40,7 +41,6 @@
     border-top: 1px solid #e6e6eb;
     height: 100%;
     list-style: none;
-    background-color: white;
   }
 
   #mobile-menu > li > a > span {
