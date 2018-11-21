@@ -45,7 +45,17 @@
     cursor: url("../../assets/link.png"), pointer;
   }
 
-  html {
+  html,body{
+    min-height: 100%;
     cursor: url("../../assets/default.png"), default;
+  }
+  body{
+    height: 100%;
+    margin:0 auto !important;
+  }
+  @media screen and (min-width:1200px){
+    body{
+      width:1200px;
+    }
   }
 </style>

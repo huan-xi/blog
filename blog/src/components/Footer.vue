@@ -18,13 +18,10 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   #footer {
-    margin-top: 30%;
+    margin-top: 20px;
     color: rgb(112, 118, 130);
     font-size: 12px;
     padding-right: 15px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
   }
 
   @media screen and (max-width: 766px) {
